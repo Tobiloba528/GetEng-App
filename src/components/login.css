@@ -1,0 +1,78 @@
+#login {
+  padding: 80px 0 110px;
+  background-image: linear-gradient(
+    350deg,
+    rgb(223, 230, 235) 35%,
+    rgb(231, 242, 248) 35%
+  );
+}
+
+#form {
+  width: 35%;
+  padding: 50px 0;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+  /* background: grey; */
+}
+
+#top{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px
+}
+
+#forCompany{
+     margin-right: 20px;
+     background: none;
+     color: rgb(34, 90, 246);
+     border: 2px solid rgb(34, 90, 246);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#forCompany:hover{
+    background: rgb(34, 90, 246);
+    color: #fff;
+}
+
+
+#form h1 {
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+#form input {
+  width: 93%;
+  margin: 20px auto;
+  height: 60px;
+  border: 3px solid rgb(229, 232, 236);
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.link {
+  float: right;
+  color: black;
+  margin: 15px 20px 20px 0;
+}
+
+#button {
+  text-align: center;
+}
+
+#submit {
+  width: 93%;
+  color: white;
+  background: rgb(211, 22, 22);
+  height: 60px;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1039px){
+    #form{
+        width: 70%;
+    }
+}

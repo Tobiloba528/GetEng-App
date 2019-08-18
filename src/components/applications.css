@@ -1,0 +1,56 @@
+#container {
+  background-image: linear-gradient(
+    350deg,
+    rgb(245, 247, 248) 35%,
+    rgb(239, 239, 240) 35%
+  );
+  width: 100%;
+  padding: 100px 0;
+}
+
+#inner {
+  background: white;
+  width: 55%;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+#inner h5 {
+  font-weight: bold;
+  padding: 50px 0 30px 25px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  margin-bottom: 50px;
+}
+
+.table td {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.table #head {
+  border-top: 2px solid white;
+  width: 100%;
+}
+
+#head th {
+  color: red;
+}
+
+#head .first {
+  width: 60%;
+}
+
+.applied-job:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 899px) {
+  #inner {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  #inner {
+    width: 95%;
+  }
+}

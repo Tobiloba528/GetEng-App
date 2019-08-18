@@ -1,0 +1,47 @@
+#hire {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#new {
+  padding: 80px 0 100px;
+  background: white
+}
+
+#header{
+  margin-bottom: 60px;
+}
+
+#header h3{
+  color: rgb(20, 44, 121);
+  margin-bottom: 25px;
+}
+
+#header p{
+  color:rgb(110, 110, 110);
+}
+
+.card {
+  padding: 25px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-text{
+  color: rgb(134, 134, 134);
+  width: 60%; 
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 827px) {
+  #hire {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #hire {
+    width: 90%;
+  }
+}

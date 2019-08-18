@@ -1,0 +1,126 @@
+#jobs {
+  width: 85%;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#filter {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 15px 18px;
+}
+
+#first {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 15px 20px 90px;
+}
+
+#filter .select {
+  margin-bottom: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 12px;
+}
+
+#icon {
+  float: right;
+  background: rgb(247, 61, 61);
+  padding: 15px 20px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+#works{
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+
+#works p{
+    border: 1px solid rgb(231, 231, 231);
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.second{
+    border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.vacancy {
+  border-radius: 10px;
+  padding: 15px 20px 90px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.vacancy:hover{
+    border: 2px solid rgb(231, 231, 231);
+}
+
+.vacancy  h3{
+    color: rgb(18, 37, 124);
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.vacancy img{
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    position: relative;
+    bottom: 60px;
+}
+
+.text{
+    display: inline-block;
+     position: relative;
+     left: 15px;
+}
+
+.price{
+    color: red;
+    position: relative;
+    top: 20px;
+}
+
+.location{
+    color: rgb(80, 79, 79);
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+}
+
+.tags{
+    color: rgb(80, 79, 79);
+    position: relative;
+    top: 35px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 812px){
+    .vacancy img{
+        bottom: 0;
+}
+
+.text{
+    left: 0;
+}
+}
+
+/* @media only screen and (max-width: 767px){
+    .vacancy img{
+        bottom: 20px;
+}
+} */

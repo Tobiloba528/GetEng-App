@@ -1,0 +1,95 @@
+#det{
+  width: 62%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+  margin: 30px 0 0;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 15px 20px 90px;
+}
+
+#intro img {
+  border: 1px solid rgb(231, 231, 231);
+  padding: 0;
+}
+
+#intro h2 {
+  margin: 50px 0 15px;
+  font-weight: bold;
+  width: 95%;
+}
+
+#container p {
+  color: black;
+}
+
+#info {
+  text-align: left;
+  margin: 50px 0;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+#apply {
+  text-align: center;
+  margin: 15px 0;
+}
+
+#apply button {
+  color: white;
+  background: rgb(240, 41, 41);
+  padding: 5px 20px;
+}
+
+#stacks {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 15px 20px 0;
+  margin-bottom: 15px;
+}
+
+#details {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 15px 5px 20px 10px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+#res h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#res li {
+  margin-bottom: 40px;
+  list-style-type: square;
+}
+
+#skills h5 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#skills li {
+  list-style-type: disc;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 1039px) {
+  #det{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 593px) {
+  #det {
+    width: 95%;
+  }
+  #intro h2 {
+    font-size: 20px;
+  }
+}
